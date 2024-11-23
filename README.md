@@ -53,6 +53,8 @@ pnpm build
 
 ### app
 
+In default, your app will deploy to `Vercel`.
+
 ```
 pnpm deploy:prod
 ```
