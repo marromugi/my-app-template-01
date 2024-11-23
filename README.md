@@ -56,3 +56,7 @@ pnpm build
 ```
 pnpm deploy:prod
 ```
+
+## TODO
+
+- replace `nextjs` to `remix`
