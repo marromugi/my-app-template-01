@@ -1,0 +1,25 @@
+@import './color.css';
+@import './font.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Zen+Kaku+Gothic+New&display=swap');
+
+@layer utilities {
+  .mg-animate-delay-100 {
+    animation-delay: 0.1s;
+  }
+  .mg-animate-delay-200 {
+    animation-delay: 0.2s;
+  }
+  .mg-animate-delay-150 {
+    animation-delay: 0.15s;
+  }
+  .mg-animate-delay-300 {
+    animation-delay: 0.3s;
+  }
+  .mg-animate-delay-400 {
+    animation-delay: 0.4s;
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -1,0 +1,29 @@
+{
+  "name": "@my-app/global",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "turbo build",
+    "build:preview": "vercel build",
+    "build:prod": "vercel build --prod",
+    "deploy:preview": "vercel build && vercel deploy --prebuilt",
+    "deploy:prod": "vercel build --prod && vercel deploy --prebuilt --prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hono": "^4.6.10",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "prettier": "^3.3.3",
+    "turbo": "^2.3.0"
+  },
+  "packageManager": "pnpm@8.15.1",
+  "engines": {
+    "pnpm": ">=8.15.1"
+  }
+}
