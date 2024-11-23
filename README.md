@@ -2,13 +2,30 @@
 
 ## stack
 
+### common
+
+- typescript
+- pnpm
+- pnpm workspace
+
+### frontend
+
 - nextjs(page router)
+- tailwindcss
+- radix-ui
+- swr (with HonoRPC)
+- react-hook-form
+- zod
+- storybook
+
+### backend
+
 - hono
 - wrangler
 - D1
 - prisma
 - vitest
-- pnpm workspace
+- zod
 
 ## structure
 
